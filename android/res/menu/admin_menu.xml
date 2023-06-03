@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/users"
+            android:title="@string/users"
+            android:icon="@drawable/ic_person"/>
+        <item
+            android:id="@+id/plants"
+            android:title="@string/plants"
+            android:icon="@drawable/ic_flower"/>
+        <item
+            android:id="@+id/devices"
+            android:title="@string/devices"
+            android:icon="@drawable/ic_devices"/>
+        <item
+            android:id="@+id/signout"
+            android:title="@string/sign_out"
+            android:icon="@drawable/ic_logout"/>
+    </group>
+</menu>

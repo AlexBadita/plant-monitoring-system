@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/leaves_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".OpeningScreenActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Plant Monitoring"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signup_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_btn_signup"
+        android:text="@string/sign_up"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_btn_login"
+        android:text="@string/log_in"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/offline_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/rounded_btn_login"
+        android:text="@string/offline"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+</LinearLayout>

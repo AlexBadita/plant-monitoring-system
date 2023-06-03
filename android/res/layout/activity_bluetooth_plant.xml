@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".offline.BluetoothPlantActivity">
+
+    <include
+        layout="@layout/custom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_marginBottom="10dp"
+        android:id="@+id/tab_menu_offline"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        app:tabIndicatorColor="@color/white"
+        app:tabTextColor="@color/white">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Values" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/tab_content_offline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
